@@ -1,0 +1,28 @@
+{
+  "name": "dashboard-api",
+  "version": "1.0.0",
+  "description": "Eduacational API",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node ./dist/main.js",
+    "build": "tsc",
+    "show": "npm run build && npm run start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "API",
+    "Express",
+    "Educational"
+  ],
+  "author": "Eduard Dzyurban",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "reflect-metadata": "^0.1.13",
+    "tslog": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13"
+  }
+}
